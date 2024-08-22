@@ -1,0 +1,17 @@
+
+.carousel-container {
+  height: 70vh; 
+}
+
+
+@media (min-width: 768px) {
+  .carousel-container {
+      height: 80vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .carousel-container {
+      height: 90vh;
+  }
+}

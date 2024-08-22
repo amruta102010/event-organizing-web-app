@@ -1,0 +1,116 @@
+export const events=[
+    {
+        EventName:"Birthday",
+        EventId:1,
+        EventCost:1000
+    },
+    {
+        EventName:"Wedding",
+        EventId:2,
+        EventCost:1000
+    },
+    {
+        EventName:"Reception",
+        EventId:3,
+        EventCost:1000
+    },
+    {
+        EventName:"Party",
+        EventId:4,
+        EventCost:1000
+    },
+   
+]
+export const servicess=[
+    {
+        ServiceName:"Catering",
+        ServiceId:1,
+        price:0,
+    },
+    {
+        ServiceName:"Decor",
+        ServiceId:2,
+        price:0,
+    },
+    {
+        ServiceName:"Music",
+        ServiceId:3,
+        price:0,
+    },
+   
+]
+export const vendorhalls=[
+    {
+        VendorId:1,
+        HallId:1,
+        HallName:"Shanti",
+        HallAddress:"test",
+    },
+    {
+        VendorId:1,
+        HallId:2,
+        HallName:"Shakti",
+        HallAddress:"test",
+    },
+   
+]
+export const vendorevents=[
+    {
+        vendorEventId:1,
+        vendor:{
+            vendorName:"Shital",
+            vendorId:1,
+        },
+        event:{
+            EventName:"Wedding",
+            EventId:2,
+            EventCost:1000,
+            hall:{
+                VendorId:1,
+                HallId:2,
+                HallName:"Shakti",
+                HallAddress:"test",
+                image:"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+            }
+        }
+    },
+    {
+        vendorEventId:2,
+        vendor:{
+            vendorName:"Shital",
+            vendorId:1,
+        },
+        event:{
+            EventName:"Birthday",
+            EventId:1,
+            EventCost:1000,
+            hall:{
+                VendorId:1,
+                HallId:2,
+                HallName:"Shakti",
+                HallAddress:"test",
+                image:"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+            }
+        }
+    },
+    {
+        vendorEventId:3,
+        vendor:{
+            vendorName:"Shital",
+            vendorId:1,
+        },
+        event:{
+            EventName:"Reception",
+            EventId:3,
+            EventCost:1000,
+            hall:{
+                VendorId:1,
+                HallId:2,
+                HallName:"Shakti",
+                HallAddress:"test",
+                image:"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+            }
+        }
+    },
+   
+]

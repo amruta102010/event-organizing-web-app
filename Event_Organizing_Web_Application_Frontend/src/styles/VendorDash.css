@@ -1,0 +1,15 @@
+.Vendor-Dashboard-Wrapper{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.Vendor-Dashboard-Wrapper .Add-Event-Botton{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: flex;
+    z-index: 1000;
+    gap: 10px;
+}
+
